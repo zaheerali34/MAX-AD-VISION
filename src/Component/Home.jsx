@@ -3,12 +3,18 @@ import React from 'react'
 export const Home = () => {
   return (
     <>
-        <div className='w-full flex items-center justify-between px-8'>
-            <div>
-                <h4>Real estate, businesses, and e-commerce.</h4>
-                <h1>Promote yourself to the fullest. Increase your vision.</h1>
+        <div className='w-full flex items-center justify-center gap-6 mt-[10rem] px-[7rem]'>
+            <div className='w-full flex items-start flex-col gap-[2rem]'>
+                <h4 className='text-[#D93020] font-[Nunito] font-bold text-[1rem]'>Real estate, businesses, and e-commerce.</h4>
+                <h1 className='w-full text-[4.2vw] font-[Nunito] font-extrabold leading-[70px]'>Promote Yourself to The Fullest. Increase your Vision.</h1>
+                <button className='p-[20px] px-[4rem] bg-[#D93020] rounded-full font-[Nunito] text-white shadow-xl shadow-[#d92f2046]'>Contact Us</button>
             </div>
-            <div></div>
+
+            <div className='w-full'>
+                <div className='w-[40vw] h-[30vw] bg-[#10dbff32] blur-[50px] rounded-full'></div>
+                <img src="../image/1.jpg" alt="" className='absolute top-[30rem] w-[25vw] h-[35vw] z-40 rounded-md rotate-6'/>
+                <img src="../image/2.jpg" alt="" className=' absolute top-[10rem] right-[5rem] w-[25vw] h-[35vw] z-40 rounded-md rotate-6'/>
+            </div>
         </div>
     </>
   )

@@ -1,4 +1,5 @@
 import React from "react";
+import { IoMenu } from "react-icons/io5";
 
 export const Header = () => {
   return (
@@ -6,7 +7,7 @@ export const Header = () => {
       <div className="text-[24px] font-extrabold tracking-[3px] font-[Nunito]">MAX AD VISION</div>
 
       <nav>
-        <ul className="flex items-center gap-[3rem] text-[17px] font-[Nunito] font-semibold">
+        <ul className="flex items-center gap-[3rem] text-[17px] font-[Nunito] font-semibold max-[992px]:hidden">
           <li className="hover:cursor-pointer hover:text-[#D93020]">Home</li>
           <li className="hover:cursor-pointer hover:text-[#D93020]">Services</li>
           <li className="hover:cursor-pointer hover:text-[#D93020]">Gallery</li>
@@ -15,6 +16,11 @@ export const Header = () => {
           <li className="hover:cursor-pointer hover:text-[#D93020]">Contact Us</li>
         </ul>
       </nav>
+
+    <div className="hidden max-[992px]:block text-[2rem] hover:text-[#D93020]">
+      <span><IoMenu /></span>
+    </div>
+
     </header>
   );
 };

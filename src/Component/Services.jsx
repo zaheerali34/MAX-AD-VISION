@@ -2,13 +2,15 @@ import React from "react";
 
 export const Services = () => {
   return (
-    <div className="w-full h-full py-[4rem] px-[3rem] flex items-center justify-center flex-col">
-      <h1 className="text-[3vw] font-[Nunito] font-extrabold">Our Services</h1>
+    <div className="w-full h-full py-[4rem] px-[10rem] flex items-center justify-center flex-col max-md:px-[1rem]">
+      <h1 className="text-[3vw] font-[Nunito] font-extrabold max-md:text-[3rem]">
+        Our Services
+      </h1>
 
       <div className="w-full flex items-center gap-6 mt-[5rem] max-[992px]:flex-col">
-        <div className="w-full h-[30rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out
-        ">
-          <div className="w-[5rem] h-[5rem] bg-red-300 rounded-full"></div>
+        <div
+          className="w-full h-[30rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out">
+          <div className="w-[5rem] h-[5rem] bg-[#E7D9F8] rounded-full"></div>
           <h2 className="text-2xl font-bold font-[Nunito] ">Copywriting</h2>
           <p className="text-xl text-[#9999A8] font-[Nunito]">
             Copy should drive company growth. Short. Simple. Succinct.
@@ -36,9 +38,11 @@ export const Services = () => {
           </div>
         </div>
 
-        <div className="w-full h-[30rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out
-        ">
-          <div className="w-[5rem] h-[5rem] bg-red-300 rounded-full"></div>
+        <div
+          className="w-full h-[30rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out
+        "
+        >
+          <div className="w-[5rem] h-[5rem] bg-[#D7FCEA] rounded-full"></div>
           <h2 className="text-2xl font-bold font-[Nunito] ">Copywriting</h2>
           <p className="text-xl text-[#9999A8] font-[Nunito]">
             Content controls your brand voice. Content must be on brand and
@@ -63,9 +67,11 @@ export const Services = () => {
           </div>
         </div>
 
-        <div className="w-full h-[30rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out
-        ">
-          <div className="w-[5rem] h-[5rem] bg-red-300 rounded-full"></div>
+        <div
+          className="w-full h-[30rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out
+        "
+        >
+          <div className="w-[5rem] h-[5rem] bg-[#CAE5FE] rounded-full"></div>
           <h2 className="text-2xl font-bold font-[Nunito] ">Copywriting</h2>
           <p className="text-xl text-[#9999A8] font-[Nunito]">
             Connect with your customer base.

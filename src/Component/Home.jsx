@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 export const Home = () => {
   return (
     <>
-      <div className="w-full h-full flex items-center gap-6 mt-[10rem] py-8 px-[3rem] max-[992px]:flex-col max-[992px]:justify-center ">
+      <div className="w-full h-full flex items-center gap-6 mt-[10rem] py-8 px-[10rem] max-[992px]:flex-col max-[992px]:justify-center ">
         <div className="w-full flex items-start flex-col gap-[2rem]">
           <h4 className="text-[#D93020] font-[Nunito] font-bold text-[1rem]">
             Real estate, businesses, and e-commerce.

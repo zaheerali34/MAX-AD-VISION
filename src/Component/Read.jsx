@@ -2,7 +2,7 @@ import React from "react";
 
 export const Read = () => {
   return (
-    <div className="w-full h-full bg-black text-white py-[5rem] px-[3rem] max-md:w-full">
+    <div className="w-full h-full bg-black text-white py-[5rem] px-[10rem] max-md:w-full">
       <h1 className="w-2/5 text-[3vw] font-extrabold font-[Nunito]">
         Where Do Your Customers Want To Read Content
       </h1>

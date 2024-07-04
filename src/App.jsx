@@ -7,6 +7,7 @@ import { Follow } from "./Component/Follow";
 import { Project } from "./Component/Project";
 import { About } from "./Component/About";
 import { From } from "./Component/From";
+import { Footer } from "./Component/Footer";
 
 export const App = () => {
   return (
@@ -20,6 +21,7 @@ export const App = () => {
         <Project />
         <About />
         <From />
+        <Footer />
       </div>
     </>
   );

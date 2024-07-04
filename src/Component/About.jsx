@@ -4,7 +4,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 export const About = () => {
   return (
     <>
-      <div className="w-full h-full bg-[#0D0D0F]  font-[Nunito] flex items-center max-[992px]:flex-col ">
+      <div className="w-full h-full bg-[#0D0D0F] font-[Nunito] flex items-center max-[992px]:flex-col ">
         <div className="px-[10rem]">
           <h1 className="text-[3rem] text-white font-bold">
             Our Clients Speak: What They Have to Say About Us

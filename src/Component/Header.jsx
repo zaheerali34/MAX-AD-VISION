@@ -3,8 +3,8 @@ import { IoMenu } from "react-icons/io5";
 
 export const Header = () => {
   return (
-    <header className="w-full flex items-center justify-between gap-9 px-[10rem] py-10 ">
-      <div className="text-[2vw] font-extrabold tracking-[3px] font-[Nunito]">MAX AD VISION</div>
+    <header className="w-full flex items-center justify-between gap-9 px-[10rem] py-10 max-sm:px-[1rem]">
+      <div className="text-[2rem] font-extrabold tracking-[3px] font-[Nunito] max-sm:text-[1.3rem]">MAX AD VISION</div>
 
       <nav>
         <ul className="flex items-center gap-[3rem] text-[17px] font-[Nunito] font-semibold max-[992px]:hidden">

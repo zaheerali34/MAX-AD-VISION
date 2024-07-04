@@ -3,7 +3,7 @@ import React from 'react'
 export const Project = () => {
   return (
     <>
-        <div className='w-full h-full px-[10rem] py-[4rem] text-center font-[Nunito] max-[992px]:mt-[10rem] max-md:px-[1rem]'>
+        <div className='w-full h-full px-[10rem] py-[4rem] text-center font-[Nunito] max-[992px]:mt-[10rem] max-md:px-[1rem] max-md:mt-[20rem]'>
             <h2 className='text-[3rem] font-extrabold'>Past Project</h2> 
 
             <div className='w-full flex items-center gap-[4rem] text-start mt-[3rem] max-[992px]:flex-col'>

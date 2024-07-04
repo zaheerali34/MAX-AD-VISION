@@ -1,42 +1,42 @@
-import React from "react";
-import { FaQuoteLeft } from "react-icons/fa";
+  import React from "react";
+  import { FaQuoteLeft } from "react-icons/fa";
 
-export const About = () => {
-  return (
-    <>
-      <div className="w-full h-full bg-[#0D0D0F] font-[Nunito] flex items-center max-[992px]:flex-col ">
-        <div className="px-[10rem]">
-          <h1 className="text-[3rem] text-white font-bold">
-            Our Clients Speak: What They Have to Say About Us
-          </h1>
+  export const About = () => {
+    return (
+      <>
+        <div className="w-full h-full bg-[#0D0D0F] font-[Nunito] flex items-center max-[992px]:flex-col max-[992px]:px-[2rem]">
+          <div className="px-[10rem]">
+            <h1 className="text-[3rem] text-white font-bold max-md:w-[25rem]">
+              Our Clients Speak: What They Have to Say About Us
+            </h1>
 
-          <div className="flex items-start gap-[3rem] pt-[5rem]">
-            <span className="text-4xl text-red-400">
-              <FaQuoteLeft />
-            </span>
-            <p className="text-[#6E6E7A] text-xl font-medium">
-              Sam is the only external PM recruiter I've talked to who truly
-              understands it. In his line of work, nobody compares to him in
-              terms of network, friendliness, and understanding of the PM
-              environment. Sam has been kind with his time and has provided
-              access. Excellent; would work with again.
-            </p>
-          </div>
-
-          <div className="flex items-center justify-between pt-[4rem]">
-            <div>
-              <span className="text-1xl text-[#6E6E7A]">
-                Group Produts Manager
+            <div className="flex items-start gap-[3rem] pt-[5rem]">
+              <span className="text-4xl text-red-400">
+                <FaQuoteLeft />
               </span>
-              <h2 className="text-white font-bold text-3xl pt-2">
-                James Smith
-              </h2>
+              <p className="text-[#6E6E7A] text-xl font-medium">
+                Sam is the only external PM recruiter I've talked to who truly
+                understands it. In his line of work, nobody compares to him in
+                terms of network, friendliness, and understanding of the PM
+                environment. Sam has been kind with his time and has provided
+                access. Excellent; would work with again.
+              </p>
             </div>
-            <div className="w-[2rem] h-[2rem] bg-slate-400"></div>
-          </div>
-        </div>
 
-        <div className="w-full h-full overflow-hidden">
+            <div className="flex items-center justify-between pt-[4rem] max-[992px]:justify-center">
+              <div>
+                <span className="text-1xl text-[#6E6E7A]">
+                  Group Produts Manager
+                </span>
+                <h2 className="text-white font-bold text-3xl pt-2">
+                  James Smith
+                </h2>
+              </div>
+              <div className="w-[2rem] h-[2rem] bg-slate-400 max-[992px]:hidden"></div>
+            </div>
+          </div>
+
+          <div className="w-full h-full overflow-hidden max-[992px]:rotate-45 max-[992px]:hidden">
             <svg
               width="518"
               height="797"
@@ -72,8 +72,8 @@ export const About = () => {
                 </linearGradient>
               </defs>
             </svg>
+          </div>
         </div>
-      </div>
-    </>
-  );
-};
+      </>
+    );
+  };

@@ -17,7 +17,7 @@ export const Home = () => {
           </button>
         </div>
 
-        <div className="w-full hidden">
+        <div className="w-full max-[992px]:hidden">
           <div className="w-[10rem] h-[10rem] bg-[#a9a9a9a9] rounded-full z-50 absolute top-[28rem] right-[25rem] shadow-sm flex items-center justify-center">
             <div className="w-[8rem] h-[8rem] border-[1px] border-[#7b7b7bb0] rounded-full flex items-center justify-center text-white text-2xl">
             <FaPlay />

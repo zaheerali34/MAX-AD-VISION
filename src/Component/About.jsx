@@ -1,5 +1,6 @@
   import React from "react";
   import { FaQuoteLeft } from "react-icons/fa";
+  import { FaArrowRightLong } from "react-icons/fa6";
 
   export const About = () => {
     return (
@@ -32,7 +33,10 @@
                   James Smith
                 </h2>
               </div>
-              <div className="w-[2rem] h-[2rem] bg-slate-400 max-[992px]:hidden"></div>
+              <div className="w-[1.5rem] h-[1.5rem] max-[992px]:hidden rounded-full relative bg-red-300 flex items-center">
+                <FaArrowRightLong className="text-white text-xl absolute right-3" />
+                <FaArrowRightLong className="text-[#51515C] text-xl absolute right-[4rem] rotate-180" />
+              </div>
             </div>
           </div>
 

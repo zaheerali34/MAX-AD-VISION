@@ -1,5 +1,4 @@
 import React from "react";
-import { IoCopy } from "react-icons/io5"; 
 
 export const Services = () => {
   return (
@@ -9,10 +8,9 @@ export const Services = () => {
       </h1>
 
       <div className="w-full flex items-center gap-6 mt-[5rem] max-[992px]:flex-col">
-        <div
-          className="w-full h-[30rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out">
-          <div className="w-[5rem] h-[5rem] bg-[#E7D9F8] rounded-full flex items-center justify-center text-[#6001D3]">
-            <IoCopy />
+        <div className="w-full h-[35rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out">
+          <div className="w-[5rem] h-[5rem] bg-[#E7D9F8] rounded-full flex items-center justify-center">
+            <img src="./image/Copywriting.png" alt="" className="w-[2rem]" />
           </div>
           <h2 className="text-2xl font-bold font-[Nunito] ">Copywriting</h2>
           <p className="text-xl text-[#9999A8] font-[Nunito]">
@@ -42,11 +40,13 @@ export const Services = () => {
         </div>
 
         <div
-          className="w-full h-[30rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out
+          className="w-full h-[35rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out
         "
         >
-          <div className="w-[5rem] h-[5rem] bg-[#D7FCEA] rounded-full"></div>
-          <h2 className="text-2xl font-bold font-[Nunito] ">Copywriting</h2>
+          <div className="w-[5rem] h-[5rem] bg-[#D7FCEA] rounded-full flex items-center justify-center">
+          <img src="./image/Content.png" alt="" className="w-[2rem]" />
+          </div>
+          <h2 className="text-2xl font-bold font-[Nunito] ">Content</h2>
           <p className="text-xl text-[#9999A8] font-[Nunito]">
             Content controls your brand voice. Content must be on brand and
           </p>
@@ -71,11 +71,13 @@ export const Services = () => {
         </div>
 
         <div
-          className="w-full h-[30rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out
+          className="w-full h-[35rem] bg-white shadow-lg rounded-[20px] p-[2rem] flex items-start flex-col gap-5 hover:shadow-2xl transition-all ease-in-out
         "
         >
-          <div className="w-[5rem] h-[5rem] bg-[#CAE5FE] rounded-full"></div>
-          <h2 className="text-2xl font-bold font-[Nunito] ">Copywriting</h2>
+          <div className="w-[5rem] h-[5rem] bg-[#CAE5FE] rounded-full flex items-center justify-center">
+          <img src="./image/marketing.png" alt="" className="w-[2rem]" />
+          </div>
+          <h2 className="text-2xl font-bold font-[Nunito] ">Marketing & Support</h2>
           <p className="text-xl text-[#9999A8] font-[Nunito]">
             Connect with your customer base.
           </p>
